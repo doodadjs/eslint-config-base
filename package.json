@@ -1,0 +1,42 @@
+{
+  "name": "@doodad-js/eslint-config-base",
+  "description": "Doodad ESLINT Configuration Package",
+  "version": "1.0.0",
+  "homepage": "https://github.com/doodadjs/",
+  "author": "Claude Petit <doodadjs@gmail.com> (https://github.com/doodadjs/)",
+  "license": "Apache-2.0",
+  "files": [
+    "rules",
+    "index.js",
+    "index.mjs",
+    "make.json",
+    "LICENSE",
+    "README.md",
+    ".eslintignore",
+    ".eslintrc.js",
+    ".gitignore",
+    ".npmignore",
+    ".npmrc",
+    ".travis.yml"
+  ],
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "keywords": [
+    "doodad-js",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doodadjs/eslint-config-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doodadjs/eslint-config-base/issues",
+    "email": "doodadjs@gmail.com"
+  }
+}
