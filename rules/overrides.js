@@ -12,8 +12,11 @@ module.exports = {
 		// Prefered over the "camelcase" rule.
 		"id-match": ["error", "(^[$]?[_]*[a-z][a-z0-9]*([A-Z][A-Za-z0-9]*)*[_]*$)|(^[_]*[A-Z]+([_][A-Z0-9]+)*[_]*$)|(^[_]*([A-Z][A-Za-z0-9]*)+[_]*$)|(^execute_[A-Z]+$)"],
 
-		// We prefer no spaciing.
+		// We prefer no spacing.
 		"keyword-spacing": 'off',
+
+		// We don't mind
+		"lines-around-directive": "off",
 
 		// Grab a modern and graphical editor.
 		'max-len': 'off',
@@ -104,9 +107,6 @@ module.exports = {
 
 		// Some comments are just argument names
 		"spaced-comment": 'off',
-
-		// Get "use strict uncessary inside modules ?", but I'm still CommonJS !
-		"strict": 'off',
 
 		// Yes, but "inside" instead of "outside".
 		"wrap-iife": ['error', 'inside'],
