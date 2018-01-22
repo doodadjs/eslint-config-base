@@ -44,11 +44,5 @@ module.exports = {
 		"prefer-destructuring": 'off',
 
 		"prefer-spread": 'off',
-
-		// Will be changed back to ['error', 'always']
-		"semi": ['warn', 'always'],
-
-		// Will be changed back to 'error'
-		"semi-spacing": 'warn',
 	},
 };
