@@ -6,13 +6,15 @@ module.exports = {
 	},
 
 	plugins: [
-		"import"
+		"import",
+		"@doodad-js/doodad",
 	],
 
 	extends: [
 		'airbnb-base',
 	].concat([
 		'./rules/overrides.js',
+		'./rules/custom.js',
 		'./rules/temporary.js',
 	].map(require.resolve)),
 

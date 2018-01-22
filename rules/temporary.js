@@ -23,20 +23,6 @@ module.exports = {
 
 		"no-unneeded-ternary": 'off',
 
-		// Will be changed back to 'error'
-		/*
-			function myfunc(foo) {
-				if (foo === 1) {
-					return 'value1';
-				} else if (foo === 2) {
-					return 'value2';
-				} else {
-					return 'value3';
-				}; // Because of semi-colon here, we get an error !!!
-			};
-		*/
-		"no-unreachable": 'warn',
-
 		"object-shorthand": 'off',
 
 		"prefer-const": 'warn',
