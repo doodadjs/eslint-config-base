@@ -2,7 +2,7 @@ module.exports = {
   rules: {
 		"eol-last": 'off',
 
-		"func-names": 'warn',
+		"func-names": 'off',
 
 		// Maybe change to "never" later...
 		"function-paren-newline": 'off',
@@ -12,8 +12,6 @@ module.exports = {
 
 		"no-multi-assign": 'off',
 
-		"no-multiple-empty-lines": 'warn',
-
 		"no-nested-ternary": 'off',
 
 		// Problem with Visual Studio for the moment.
@@ -22,8 +20,6 @@ module.exports = {
 		"no-unneeded-ternary": 'off',
 
 		"object-shorthand": 'off',
-
-		"prefer-const": 'warn',
 
 		"prefer-destructuring": 'off',
 
