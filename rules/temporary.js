@@ -16,8 +16,6 @@ module.exports = {
 
 		"no-nested-ternary": 'off',
 
-		"no-shadow": 'warn',
-
 		// Problem with Visual Studio for the moment.
 		"no-trailing-spaces": 'off',
 

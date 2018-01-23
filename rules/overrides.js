@@ -60,6 +60,9 @@ module.exports = {
 		// for...of
 		"no-restricted-syntax": 'off',
 
+		// I admit: I'm missing imagination for variable and argument names.
+		"no-shadow": 'off',
+
 		// We prefer tabs over spaces
 		"no-tabs": 'off',
 
