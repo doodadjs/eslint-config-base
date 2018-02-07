@@ -24,8 +24,5 @@ module.exports = {
 		"prefer-destructuring": 'off',
 
 		"prefer-spread": 'off',
-		
-		// False positive on Bootstrap:373 (array-like section of "types.keys")
-		"guard-for-in" : "off",
 	},
 };
