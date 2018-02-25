@@ -1,7 +1,5 @@
 module.exports = {
   rules: {
-		"eol-last": 'off',
-
 		"func-names": 'off',
 
 		// Maybe change to "never" later...
