@@ -12,6 +12,10 @@ module.exports = {
 		// Prefered over the "camelcase" rule.
 		"id-match": ["error", "(^[$]?[_]*[a-z][a-z0-9]*([A-Z][A-Za-z0-9]*)*[_]*$)|(^[_]*[A-Z]+([_][A-Z0-9]+)*[_]*$)|(^[_]*([A-Z][A-Za-z0-9]*)+[_]*$)|(^execute_[A-Z]+$)"],
 
+		// We use "tab".
+		// TODO: Identation between block directives. ex: IF() ... ELSE() ... END_IF()
+		"indent": ["error", "tab"],
+
 		// We prefer no spacing.
 		"keyword-spacing": 'off',
 
