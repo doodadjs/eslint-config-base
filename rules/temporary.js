@@ -5,15 +5,13 @@ module.exports = {
 		// Maybe change to "never" later...
 		"function-paren-newline": 'off',
 
-		// Problem with Visual Studio for the moment.
+		// Can't use the existing rule because of "//! ..." and "/*! ... */" directives.
+		//"indent": ["error", "tab"],
 		"indent": 'off',
 
 		"no-multi-assign": 'off',
 
 		"no-nested-ternary": 'off',
-
-		// Problem with Visual Studio for the moment.
-		"no-trailing-spaces": 'off',
 
 		"no-unneeded-ternary": 'off',
 
