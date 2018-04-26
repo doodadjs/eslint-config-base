@@ -5,8 +5,6 @@ module.exports = {
 		// Maybe change to "never" later...
 		"function-paren-newline": 'off',
 
-		"no-multi-assign": 'off',
-
 		"no-nested-ternary": 'off',
 
 		"no-unneeded-ternary": 'off',
