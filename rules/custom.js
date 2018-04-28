@@ -14,5 +14,10 @@ module.exports = {
 		*/
 		"no-unreachable": 'off',
 		"@doodad-js/doodad/no-unreachable": 'error',
+
+		// "indent" doesn't appropriately indent comments.
+		// TODO: Directives... ex.:  IF() ... ELSE() ... END_IF()
+		"indent": "off",
+		"@doodad-js/doodad/indent": ["error", "tab"]
 	},
 };
