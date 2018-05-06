@@ -16,7 +16,7 @@ module.exports = {
 		"@doodad-js/doodad/no-unreachable": 'error',
 
 		// "indent" doesn't appropriately indent comments.
-		// TODO: Directives... ex.:  IF() ... ELSE() ... END_IF()
+		// Apply directives. Ex.:  IF() ... ELSE() ... END_IF()
 		"indent": "off",
 		"@doodad-js/doodad/indent": ["error", "tab"]
 	},
