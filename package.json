@@ -1,7 +1,7 @@
 {
   "name": "@doodad-js/eslint-config-base",
   "description": "ESLINT Configuration Package for the doodad-js Project",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "homepage": "https://github.com/doodadjs/",
   "author": "Claude Petit <doodadjs@gmail.com> (https://github.com/doodadjs/)",
   "license": "Apache-2.0",
