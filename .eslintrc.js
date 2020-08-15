@@ -20,7 +20,7 @@ module.exports = {
 
 	parserOptions: {
 		ecmaVersion: 2017,
-		sourceType: 'cjs',
+		sourceType: 'script',
 		ecmaFeatures: {
 			experimentalObjectRestSpread: true,
 		},

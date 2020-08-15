@@ -18,6 +18,9 @@ module.exports = {
 		// We don't mind
 		"lines-around-directive": "off",
 
+		// We don't mind
+		"max-classes-per-file" : 'off',
+		
 		// Grab a modern and graphical editor.
 		'max-len': 'off',
 
@@ -50,6 +53,9 @@ module.exports = {
 
 		// What ???
 		"no-multi-spaces": 'off',
+
+		// We want to make code spacing
+		"no-multiple-empty-lines": 'off',
 
 		// We mostly does parameter validation and conversion (cast).
 		"no-param-reassign": 'off',
@@ -110,6 +116,9 @@ module.exports = {
 
 		// Some comments are just argument names
 		"spaced-comment": 'off',
+
+		// Needed
+		"strict": 'off',
 
 		// Yes, but "inside" instead of "outside".
 		"wrap-iife": ['error', 'inside'],
