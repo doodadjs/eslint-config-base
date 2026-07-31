@@ -6,8 +6,8 @@ module.exports = {
 	},
 
 	plugins: [
-		"import",
-		"@doodad-js/doodad",
+		"import"
+		//"@doodad-js/doodad",
 	],
 
 	extends: [

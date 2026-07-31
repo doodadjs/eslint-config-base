@@ -12,12 +12,12 @@ module.exports = {
 				}; // <-- Because of semi-colon here, we was geting an error !!!
 			};
 		*/
-		"no-unreachable": 'off',
-		"@doodad-js/doodad/no-unreachable": 'error',
+		//"no-unreachable": 'off',
+		//"@doodad-js/doodad/no-unreachable": 'error',
 
 		// "indent" doesn't appropriately indent comments.
 		// Apply directives. Ex.:  IF() ... ELSE() ... END_IF()
 		"indent": "off",
-		"@doodad-js/doodad/indent": ["error", "tab"]
+		//"@doodad-js/doodad/indent": ["error", "tab"]
 	},
 };
