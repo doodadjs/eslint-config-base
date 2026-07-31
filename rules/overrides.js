@@ -122,5 +122,17 @@ module.exports = {
 
 		// Yes, but "inside" instead of "outside".
 		"wrap-iife": ['error', 'inside'],
+
+		// We manage dependencies
+		"import/no-unresolved": 'off',
+
+		// Our constructors can be used without "new".
+		"no-constructor-return": 'off',
+
+		// What ?
+		"function-call-argument-newline": 'off',
+
+		// ES6
+		"prefer-object-spread": 'off',
 	},
 };
