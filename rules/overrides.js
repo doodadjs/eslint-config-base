@@ -1,138 +1,138 @@
 module.exports = {
   rules: {
 		// Replaced by the "id-match" rule.
-		"camelcase": "off",
+		//"camelcase": "off",
 
 		// We don't mind
-		"comma-dangle": 'off',
+		//"comma-dangle": 'off',
 
 		// We don't mind
-		"dot-notation": 'off',
+		//"dot-notation": 'off',
 
 		// Prefered over the "camelcase" rule.
 		"id-match": ["error", "(^[$]?[_]*[a-z][a-z0-9]*([A-Z][A-Za-z0-9]*)*[_]*$)|(^[_]*[A-Z]+([_][A-Z0-9]+)*[_]*$)|(^[_]*([A-Z][A-Za-z0-9]*)+[_]*$)|(^execute_[A-Z]+$)"],
 
 		// We prefer no spacing.
-		"keyword-spacing": 'off',
+		//"keyword-spacing": 'off',
 
 		// We don't mind
-		"lines-around-directive": "off",
+		//"lines-around-directive": "off",
 
 		// We don't mind
-		"max-classes-per-file" : 'off',
+		//"max-classes-per-file" : 'off',
 		
 		// Grab a modern and graphical editor.
-		'max-len': 'off',
+		//'max-len': 'off',
 
 		// Some variables are assigned a constructor.
-		"new-cap": 'off',
+		//"new-cap": 'off',
 
 		// What ?
-		"no-bitwise": 'off',
+		//"no-bitwise": 'off',
 
 		// What ?
-		"no-continue": 'off',
+		//"no-continue": 'off',
 
 		// What ?
-		"no-else-return": 'off',
+		//"no-else-return": 'off',
 
 		// What ?
-		"no-extra-label": 'off',
+		//"no-extra-label": 'off',
 
 		// ASI ?
-		"no-extra-semi": 'off',
+		//"no-extra-semi": 'off',
 
 		// What ?
-		"no-labels": 'off',
+		//"no-labels": 'off',
 
 		// What ?
-		"no-lonely-if": 'off',
+		//"no-lonely-if": 'off',
 
 		// a && b || c
-		"no-mixed-operators": 'off',
+		//"no-mixed-operators": 'off',
 
 		// What ???
-		"no-multi-spaces": 'off',
+		//"no-multi-spaces": 'off',
 
 		// We want to make code spacing
-		"no-multiple-empty-lines": 'off',
+		//"no-multiple-empty-lines": 'off',
 
 		// We mostly does parameter validation and conversion (cast).
-		"no-param-reassign": 'off',
+		//"no-param-reassign": 'off',
 
 		// What ?
-		"no-plusplus": 'off',
+		//"no-plusplus": 'off',
 
 		// for...of
-		"no-restricted-syntax": 'off',
+		//"no-restricted-syntax": 'off',
 
 		// I admit: I'm missing imagination for variable and argument names.
-		"no-shadow": 'off',
+		//"no-shadow": 'off',
 
 		// We prefer tabs over spaces
-		"no-tabs": 'off',
+		//"no-tabs": 'off',
 
 		// Like to be explicit.
-		"no-undef-init": 'off',
+		//"no-undef-init": 'off',
 
 		// What ?
-		"no-underscore-dangle": 'off',
+		//"no-underscore-dangle": 'off',
 
 		// DD_ASSERT && DD_ASSERT(...)
-		"no-unused-expressions": 'off',
+		//"no-unused-expressions": 'off',
 
 		// Function signature
 		"no-unused-vars": ['error', {args: 'none'}],
 
 		// No
-		"object-curly-newline": 'off',
+		//"object-curly-newline": 'off',
 
 		// What ?
-		"object-curly-spacing": 'off',
+		//"object-curly-spacing": 'off',
 
 		// No, "const/let/var" can declare more than one variables at once.
-		"one-var": 'off',
+		//"one-var": 'off',
 
 		// That makes code more readable for me.
-		"padded-blocks": 'off',
+		//"padded-blocks": 'off',
 
 		// Nope, a function is fine too.
-		"prefer-arrow-callback": 'off',
+		//"prefer-arrow-callback": 'off',
 
 		// Not sure
-		"prefer-template": 'off',
+		//"prefer-template": 'off',
 
 		// We don't care
-		"quote-props": 'off',
+		//"quote-props": 'off',
 
 		// Strings are either single or double quotes, ok ?
-		"quotes": "off",
+		//"quotes": "off",
 
 		// What ?
-		"space-before-function-paren": 'off',
+		//"space-before-function-paren": 'off',
 
 		// Readability
-		"space-in-parens": 'off',
+		//"space-in-parens": 'off',
 
 		// Some comments are just argument names
-		"spaced-comment": 'off',
+		//"spaced-comment": 'off',
 
 		// Needed
-		"strict": 'off',
+		//"strict": 'off',
 
 		// Yes, but "inside" instead of "outside".
-		"wrap-iife": ['error', 'inside'],
+		//"wrap-iife": ['error', 'inside'],
 
 		// We manage dependencies
-		"import/no-unresolved": 'off',
+		//"import/no-unresolved": 'off',
 
 		// Our constructors can be used without "new".
-		"no-constructor-return": 'off',
+		//"no-constructor-return": 'off',
 
 		// What ?
-		"function-call-argument-newline": 'off',
+		//"function-call-argument-newline": 'off',
 
 		// ES6
-		"prefer-object-spread": 'off',
+		//"prefer-object-spread": 'off',
 	},
 };
