@@ -18,9 +18,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "eslint": "^8.2.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint": "^10.8.0",
     "@doodad-js/eslint-plugin-doodad": "^2.0.0"
   },
   "keywords": [
