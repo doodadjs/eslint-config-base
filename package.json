@@ -17,9 +17,9 @@
     ".npmrc"
   ],
   "main": "index.js",
-  "dependencies": {
-    "eslint": "^10.8.0",
-    "@doodad-js/eslint-plugin-doodad": "^2.0.0"
+  "devDependencies": {
+    "globals": "^17.8.0",
+    "@eslint/js": "^10.0.1"
   },
   "keywords": [
     "doodad-js",
